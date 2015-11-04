@@ -5,7 +5,7 @@ class Rook < SlidingPiece
   end
 
   def to_s
-    "R".colorize(self.color)
+    "♜".colorize(self.color)
   end
 
 end

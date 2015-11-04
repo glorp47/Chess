@@ -5,7 +5,7 @@ class Queen < SlidingPiece
   end
 
   def to_s
-    "Q".colorize(self.color)
+    "♛".colorize(self.color)
   end
 
 end

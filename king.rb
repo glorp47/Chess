@@ -5,7 +5,7 @@ class King < SteppingPiece
   end
 
   def to_s
-    "K".colorize(self.color)
+    "♚".colorize(self.color) 
   end
 
 end

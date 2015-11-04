@@ -5,7 +5,7 @@ class Knight < SteppingPiece
   end
 
   def to_s
-    "H".colorize(self.color)
+    "♞".colorize(self.color)
   end
 
 end
